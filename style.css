@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(rgba(135, 40, 73, 0.1), rgba(148, 28, 86, 0.9));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.key__main {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  max-width: 299px;
+  font-size: 18px;
+  line-height: 1.5px;
+  letter-spacing: 1.5px;
+}
+.key__info {
+  background-color: rgba(187, 125, 165, 0.514);
+  position: relative;
+  max-width: 600px;
+  padding: 4rem;
+  border-radius: 5px;
+}
+.key__num {
+  background-color: rgba(87, 10, 10, 0.493);
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 60px;
+  border: 3px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.information {
+  display: none;
+}
+
+.enter__key {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff8e;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.enter__key__title {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(234, 171, 208, 0.842);
+  color: #000;
+  border: 1px solid #fff;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.enter__key__entertitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #da9ad48e;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: grab;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 1s ease;
+}
