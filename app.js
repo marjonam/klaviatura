@@ -4,11 +4,14 @@ const knum = document.querySelector(".key__num");
 const kd = document.querySelector(".enter__key__entertitle");
 const button = document.querySelector(".btn");
 
+const audio = new Audio("../keyboard.mp3");
+
 document.addEventListener("keydown", (e) => {
   tx.classList.add("information");
   kd.textContent = e.key;
   kb.classList.remove("information");
   button.classList.remove("information");
+  audio.play();
   console.log(e);
 });
 button.addEventListener("click", () => {
@@ -17,6 +20,3 @@ button.addEventListener("click", () => {
   button.classList.add("information");
   console.log("info");
 });
-
-const play = document.getElementById("play");
-const music = document.getElementById("audio");
